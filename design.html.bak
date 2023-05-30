@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Order online food</title>
+    <style>
+        html,body{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+            background-color: white;
+        }
+        
+        .sub-head-2{
+            color:white;
+            margin:0px 40px;
+            text-align: center;
+        }
+        #section-3{
+            height:600px;
+        }
+        footer{
+            background-color: black;
+            display: flex;
+            justify-content: space-around;
+            padding:20px;
+        }
+    </style>
+</head>
+<body background="">
+    <section id="section-3">
+        <div style="float: left; width:50%; height:100%;display: flex;align-items: center; justify-content: center;">
+            <div style="float: right;height:50%; width:50%">
+              <b>  <p class="head">Restaurants in your pocket</p>
+			  <br>
+			  
+                <p class="sub-head">Order from your favorite restaurants & track on the go, with the all-new Swiggy app.</p></b>
+				<br>
+                <div class="flex-row">
+                    <img src="er.JPG" width="200px" height="60px"/>
+                    
+                </div>
+            </div>
+        </div>
+        <div style="position:relative;float: right; width: 50%; display: flex; height:100%">
+            <img src="2.JPG" height="500px" width="400px"/>
+            <img src="3.JPG" height="500px" width="400px" style="position:absolute;bottom:0;right:20%"/>
+        </div>
+    </section>
+    <footer>
+        <img src="4.JPG" width="200px" height="60px"/>
+        <p style="color:white; font-size: 21px;">&copy; 2020 Swiggy</p>
+        <div style="width:200px; display: flex; justify-content: space-between; align-items: center;">
+            <img src="fb.JPG" width="24" height="24"/>
+            <img src="pin.jpg" width="24" height="24"/>
+            <img src="tw.JPG" width="24" height="24"/>
+            <img src="insta.JPGS" width="24" height="24"/>
+            
+        
+        </div>
+    </footer>
+</body>
+</html>
+
